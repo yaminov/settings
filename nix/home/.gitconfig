@@ -1,0 +1,30 @@
+[user]
+	name = hz
+	email = dxp@ngs.ru
+
+[core]
+	editor = fte
+
+[alias]
+    ci       = commit
+    co       = checkout
+    s        = status
+    st       = status
+    b        = branch
+    br       = branch
+    lo       = log --name-status
+    hist     = log --pretty=format::\"%h %ad | %s%d [%an]\" --graph --date=short
+    h        = log --graph --abbrev-commit --decorate --date=short --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%ad%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset) %C(white)%s%C(reset) %C(red)| %an%C(reset)'
+    ha       = log --graph --abbrev-commit --decorate --date=short --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%ad%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset) %C(white)%s%C(reset) %C(red)| %an%C(reset)' --all
+    conflict = !gitk --left-right HEAD...MERGE_HEAD
+
+[color]
+	ui = true
+
+[color "status"]
+	header    = "normal"
+        added     = "green bold"
+	changed   = "cyan bold"
+	untracked = "yellow dim"
+        deleted   = "red"
+        branch    = "magenta"
