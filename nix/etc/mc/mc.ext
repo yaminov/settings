@@ -529,8 +529,7 @@ type/^PostScript
 
 # PDF
 type/^PDF
-	#Open=/usr/lib/mc/ext.d/doc.sh open pdf
-	Open=(/usr/bin/evince %f > /dev/null 2>&1 &)
+	Open=/usr/lib/mc/ext.d/doc.sh open pdf
 	View=%view{ascii} /usr/lib/mc/ext.d/doc.sh view pdf
 
 # html
@@ -543,17 +542,9 @@ shell/.sdw
 	Open=/usr/lib/mc/ext.d/doc.sh open ooffice
 
 # StarOffice 6 and OpenOffice.org formats
-#regex/i/\.(odt|ott|sxw|stw|ods|ots|sxc|stc|odp|otp|sxi|sti|odg|otg|sxd|std|odb|odf|sxm|odm|sxg)$
-#	#Open=/usr/lib/mc/ext.d/doc.sh open ooffice
-#	Open=/usr/lib/libreoffice/program/swriter %f
-#	View=%view{ascii} /usr/lib/mc/ext.d/doc.sh view odt
-
-# StarOffice 6 and OpenOffice.org formats
-
-regex/\.(odt|ott|sxw|stw|ods|ots|sxc|stc|odp|otp|sxi|sti|odg|otg|sxd|std|odb|odf|sxm|odm|sxg)$
-	Open=(libreoffice %f >/dev/null 2>&1 &)
-	View=%view{ascii} odt2txt %f
-
+regex/i/\.(odt|ott|sxw|stw|ods|ots|sxc|stc|odp|otp|sxi|sti|odg|otg|sxd|std|odb|odf|sxm|odm|sxg)$
+	Open=/usr/lib/mc/ext.d/doc.sh open ooffice
+	View=%view{ascii} /usr/lib/mc/ext.d/doc.sh view odt
 
 # AbiWord
 shell/.abw
