@@ -2,5 +2,5 @@
 # git gives 7 parameters, while meld needs only 2.
 # call meld with correct parameters.
 
-[ $# -eq 7 ] && meld "$2" "$5"
+[ $# -eq 7 ] && meld "$2" "$5" 2> /dev/null
 
