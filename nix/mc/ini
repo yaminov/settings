@@ -1,6 +1,6 @@
 [Midnight-Commander]
 verbose=1
-pause_after_run=2
+pause_after_run=1
 shell_patterns=1
 auto_save_setup=0
 preallocate_space=0
@@ -160,6 +160,17 @@ content_whole_words=false
 content_all_charsets=false
 ignore_dirs_enable=true
 ignore_dirs=
+
+[DiffView]
+show_symbols=false
+show_numbers=false
+tab_size=8
+diff_quality=0
+diff_ignore_tws=false
+diff_ignore_all_space=false
+diff_ignore_space_change=false
+diff_tab_expansion=false
+diff_ignore_case=false
 
 [Panelize]
 Find *.orig after patching=find . -name \\*.orig -print

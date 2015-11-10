@@ -1,9 +1,12 @@
-+?
++ t r | t d
 c     Copmare files
-     meld %d/%f %D/%F > /dev/null 2>&1 &
-	echo 'slon'
-	echo %f
-	echo %F
+     meld %f %D/%F > /dev/null 2>&1 &
+	
++ t r | t d
+s     Copmare files with same name
+     meld %f %D/%f > /dev/null 2>&1 &
+	
+
 
 shell_patterns=0
 + ! t t
