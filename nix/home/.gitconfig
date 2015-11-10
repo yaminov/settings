@@ -28,3 +28,5 @@
 	untracked = "yellow dim"
         deleted   = "red"
         branch    = "magenta"
+[diff]
+	external = git-ext-diff
