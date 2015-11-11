@@ -1,14 +1,15 @@
-+ t r | t d
-c     Copmare files
+shell_patterns=0
+
+
+=+ t r | t d
+c       Copmare files/directories
      meld %f %D/%F > /dev/null 2>&1 &
 	
-+ t r | t d
-s     Copmare files with same name
+=+ t r | t d
+s       Copmare files/directories with same name
      meld %f %D/%f > /dev/null 2>&1 &
-	
 
 
-shell_patterns=0
 + ! t t
 @       Do something on the current file
 	CMD=%{Enter command}
