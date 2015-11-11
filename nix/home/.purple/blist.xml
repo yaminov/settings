@@ -1,0 +1,773 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<purple version='1.0'>
+	<blist>
+		<group name='General'>
+			<setting name='collapsed' type='bool'>1</setting>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>422842209</name>
+					<alias>Alexandr</alias>
+					<setting name='last_seen' type='int'>1447217370</setting>
+					<setting name='buddy_icon' type='string'>ef414954dab10efa09e6efd21b3c84a2b3bc2f05.jpg</setting>
+					<setting name='icon_checksum' type='string'>4e659ae022f9245b6ee5b8f2e4d8a327</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>236881017</name>
+					<alias>Алла Андреевна</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>461312278</name>
+					<alias>Андрей Ошуев</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>499696174</name>
+					<alias>Открытые Технологии</alias>
+					<setting name='last_seen' type='int'>1447190805</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>1144555</name>
+					<alias>Shop-54</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>240721654</name>
+					<alias>Юлия Цивинская</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>222885141</name>
+					<alias>Oshuev Andrej</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>342494449</name>
+					<alias>Саня Стабников</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>191005964</name>
+					<alias>Макс Пшеничный</alias>
+					<setting name='last_seen' type='int'>1447166257</setting>
+					<setting name='buddy_icon' type='string'>2cc40b9874ed38222ca8669ce627d3ad32b110b3.jpg</setting>
+					<setting name='icon_checksum' type='string'>2482e8dcfeae313a508757ff51773b70</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>154234751</name>
+					<alias>Re-start</alias>
+					<setting name='last_seen' type='int'>1447162098</setting>
+					<setting name='buddy_icon' type='string'>91043ea94fb8ab247830bd10ad85ada5e69ab594.jpg</setting>
+					<setting name='icon_checksum' type='string'>3d649fec01329e8caec315112b57ebbc</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>191005964@qip.ru</name>
+					<alias>Макс Пшеничный</alias>
+					<setting name='last_seen' type='int'>1447166257</setting>
+					<setting name='buddy_icon' type='string'>a0b17c6338241392beb03b4cd0f62dc689405470.jpg</setting>
+					<setting name='icon_checksum' type='string'>a0b17c6338241392beb03b4cd0f62dc689405470</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>191707497@qip.ru</name>
+					<alias>KorolenkoSM</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>240721654@qip.ru</name>
+					<alias>Юлия Цивинская</alias>
+				</buddy>
+			</contact>
+		</group>
+		<group name='Co-Workers'>
+			<setting name='collapsed' type='bool'>0</setting>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>216388270</name>
+					<alias>Виталя Васильев</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='h.z@jabber.ru/' proto='prpl-jabber'>
+					<name>novpit@jabber.ru</name>
+					<alias>Петр</alias>
+					<setting name='last_seen' type='int'>1447159384</setting>
+				</buddy>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>384601905</name>
+					<alias>Петр</alias>
+					<setting name='last_seen' type='int'>1447159384</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>428001245</name>
+					<alias>Игорь Лукошков</alias>
+				</buddy>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>428001245@qip.ru</name>
+					<alias>Игорь Лукошков</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>576406626</name>
+					<alias>Дима Алантьев</alias>
+					<setting name='last_seen' type='int'>1447217430</setting>
+					<setting name='tab_index' type='int'>7</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>191707497</name>
+					<alias>KorolenkoSM</alias>
+					<setting name='last_seen' type='int'>1447155840</setting>
+				</buddy>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>korolenkosm@qip.ru</name>
+					<alias>KorolenkoSM</alias>
+					<setting name='last_seen' type='int'>1447155840</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>342494449-1@qip.ru</name>
+					<alias>Саня Стабников</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>396405362@qip.ru</name>
+					<alias>Петр</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>410759270@qip.ru</name>
+					<alias>Владимир Пономарев</alias>
+				</buddy>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>410759270</name>
+					<alias>Владимир Пономарёв</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>63263332-1@qip.ru</name>
+					<alias>Сергей Пинигин</alias>
+				</buddy>
+			</contact>
+		</group>
+		<group name='Family'>
+			<setting name='collapsed' type='bool'>1</setting>
+			<contact>
+				<buddy account='h.z@jabber.ru/' proto='prpl-jabber'>
+					<name>maria.zhurova@jabber.ru</name>
+					<alias>maria.zhurova@jabber.ru</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>639789412</name>
+					<alias>Maria Zhurova</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>370353366</name>
+					<alias>Оля</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>446625448</name>
+					<alias>Димка</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>242885111</name>
+					<alias>Иришка</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>429256695</name>
+					<alias>Мама</alias>
+				</buddy>
+			</contact>
+		</group>
+		<group name='Friends'>
+			<setting name='collapsed' type='bool'>0</setting>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>48649214</name>
+					<alias>Виталя Лапицкий</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='h.z@jabber.ru/' proto='prpl-jabber'>
+					<name>kamil@yaminov.ru</name>
+					<alias>kamil</alias>
+				</buddy>
+				<buddy account='h.z@jabber.ru/' proto='prpl-jabber'>
+					<name>k.r.yaminov@gmail.com</name>
+					<alias>Камиль Яминов</alias>
+					<setting name='last_seen' type='int'>1447220526</setting>
+					<setting name='buddy_icon' type='string'>5f5d62e63e5eb18b2e4016f9cbf72b2c4e4f49d7.jpg</setting>
+					<setting name='icon_checksum' type='string'>5f5d62e63e5eb18b2e4016f9cbf72b2c4e4f49d7</setting>
+					<setting name='tab_index' type='int'>1</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='h.z@jabber.ru/' proto='prpl-jabber'>
+					<name>mtsivinsky@jabber.ru</name>
+					<alias>Мишка Цивинский</alias>
+					<setting name='last_seen' type='int'>1447165013</setting>
+					<setting name='tab_index' type='int'>3</setting>
+				</buddy>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>491198510</name>
+					<alias>Мишка Цивинский</alias>
+					<setting name='last_seen' type='int'>1447165013</setting>
+				</buddy>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>mike3458700@qip.ru</name>
+					<alias>Мишка Цивинский</alias>
+					<setting name='last_seen' type='int'>1447165013</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='h.z@jabber.ru/' proto='prpl-jabber'>
+					<name>sgs67@jabber.ru</name>
+					<alias>Станислав</alias>
+				</buddy>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>495400561</name>
+					<alias>Станислав</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='h.z@jabber.ru/' proto='prpl-jabber'>
+					<name>spivnev@gmail.com</name>
+					<alias>Серега Пивнев</alias>
+					<setting name='last_seen' type='int'>1446809958</setting>
+				</buddy>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>54212857</name>
+					<alias>Серега Пивнев</alias>
+				</buddy>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>54212857@qip.ru</name>
+					<alias>Серега Пивнев</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='h.z@jabber.ru/' proto='prpl-jabber'>
+					<name>t.ya@jabber.ru</name>
+					<alias>Татьяна</alias>
+					<setting name='last_seen' type='int'>1447157979</setting>
+					<setting name='tab_index' type='int'>1</setting>
+				</buddy>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>484781535</name>
+					<alias>Татьяна</alias>
+					<setting name='last_seen' type='int'>1447234709</setting>
+				</buddy>
+				<buddy account='h.z@jabber.ru/' proto='prpl-jabber'>
+					<name>t.ya@qip.ru</name>
+					<alias>Татьяна</alias>
+					<setting name='last_seen' type='int'>1447157979</setting>
+				</buddy>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>t.ya@qip.ru</name>
+					<alias>Татьяна</alias>
+					<setting name='last_seen' type='int'>1447157979</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='h.z@jabber.ru/' proto='prpl-jabber'>
+					<name>urchin@qip.ru</name>
+					<alias>Серега Чибурун</alias>
+					<setting name='last_seen' type='int'>1447158855</setting>
+					<setting name='buddy_icon' type='string'>8b222999108ab926c58d40b76c64527a3f22459a.jpg</setting>
+					<setting name='icon_checksum' type='string'>8b222999108ab926c58d40b76c64527a3f22459a</setting>
+					<setting name='tab_index' type='int'>4</setting>
+				</buddy>
+				<buddy account='h.z@jabber.ru/' proto='prpl-jabber'>
+					<name>urchin_ej@jabber.ru</name>
+					<alias>Серега Чибурун</alias>
+				</buddy>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>200618502</name>
+					<alias>Серега Чибурун</alias>
+					<setting name='last_seen' type='int'>1447214682</setting>
+					<setting name='buddy_icon' type='string'>4097b64499d3e6d2dca926c2d2bb7f8450b6b4e9.jpg</setting>
+					<setting name='icon_checksum' type='string'>92a38cc2a27e62fa69dd8806fc84b234</setting>
+					<setting name='tab_index' type='int'>4</setting>
+				</buddy>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>urchin@qip.ru</name>
+					<alias>urchin</alias>
+					<setting name='last_seen' type='int'>1447158855</setting>
+					<setting name='buddy_icon' type='string'>8b222999108ab926c58d40b76c64527a3f22459a.jpg</setting>
+					<setting name='icon_checksum' type='string'>8b222999108ab926c58d40b76c64527a3f22459a</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='h.z@jabber.ru/' proto='prpl-jabber'>
+					<name>golitsyn@jabber.ru</name>
+					<alias>Golitsyn</alias>
+				</buddy>
+				<buddy account='h.z@jabber.ru/' proto='prpl-jabber'>
+					<name>golitsyn_av@jabber.ru</name>
+					<alias>Golitsyn</alias>
+				</buddy>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>315340163</name>
+					<alias>Golitsyn</alias>
+					<setting name='last_seen' type='int'>1447185026</setting>
+					<setting name='tab_index' type='int'>4</setting>
+				</buddy>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>315-340-163@qip.ru</name>
+					<alias>Андрей Голицын</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>250525679@qip.ru</name>
+					<alias>Сашка Голицын</alias>
+					<setting name='tab_index' type='int'>11</setting>
+				</buddy>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>250525679</name>
+					<alias>Сашка Голицын</alias>
+					<setting name='last_seen' type='int'>1447185026</setting>
+					<setting name='tab_index' type='int'>5</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>315340163@qip.ru</name>
+					<alias>Андрей Голицын</alias>
+				</buddy>
+			</contact>
+		</group>
+		<group name='Engineers'>
+			<setting name='collapsed' type='bool'>0</setting>
+			<contact>
+				<buddy account='h.z@jabber.ru/' proto='prpl-jabber'>
+					<name>alexander.belchenko@gmail.com</name>
+					<alias>alexander.belchenko</alias>
+					<setting name='last_seen' type='int'>1446809958</setting>
+					<setting name='buddy_icon' type='string'>b9c6c053c2d4e6b69652f0e279d1f68af16c64b3.jpg</setting>
+					<setting name='icon_checksum' type='string'>b9c6c053c2d4e6b69652f0e279d1f68af16c64b3</setting>
+				</buddy>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>239950907</name>
+					<alias>bialix</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>44341220</name>
+					<alias>Андрей Мозжевилов (ICQ)</alias>
+					<setting name='tab_index' type='int'>2</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>413668040</name>
+					<alias>Андрей Чуйкин</alias>
+					<setting name='last_seen' type='int'>1447160214</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='h.z@jabber.ru/' proto='prpl-jabber'>
+					<name>anton.lukashenko@gmail.com</name>
+					<alias>Антон Лукашенко</alias>
+					<setting name='last_seen' type='int'>1446809958</setting>
+					<setting name='buddy_icon' type='string'>1d82ca2a1d4b47936866c5b8ded0d35c96a16f61.jpg</setting>
+					<setting name='icon_checksum' type='string'>1d82ca2a1d4b47936866c5b8ded0d35c96a16f61</setting>
+				</buddy>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>297127220</name>
+					<alias>Антон Лукашенко</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='h.z@jabber.ru/' proto='prpl-jabber'>
+					<name>antongus@jabber.ru</name>
+					<alias>Антон Гусев</alias>
+					<setting name='last_seen' type='int'>1447181540</setting>
+					<setting name='buddy_icon' type='string'>e8cb63b406b92fdb268166c95f45523f72f951c9.png</setting>
+					<setting name='icon_checksum' type='string'>e8cb63b406b92fdb268166c95f45523f72f951c9</setting>
+					<setting name='tab_index' type='int'>2</setting>
+				</buddy>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>163546442</name>
+					<alias>Антон Гусев</alias>
+					<setting name='last_seen' type='int'>1447181540</setting>
+					<setting name='buddy_icon' type='string'>5ea6596b02dcc7c67b6f3deb61142f72d123b745.jpg</setting>
+					<setting name='tab_index' type='int'>3</setting>
+					<setting name='icon_checksum' type='string'>ef69611e87caef39f567a405afb8d1f4</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='h.z@jabber.ru/' proto='prpl-jabber'>
+					<name>avreal@jabber.kiev.ua</name>
+					<alias>Александр Редчук</alias>
+				</buddy>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>244604407</name>
+					<alias>Александр Редчук</alias>
+				</buddy>
+				<buddy account='h.z@jabber.ru/' proto='prpl-jabber'>
+					<name>oleksandr.redchuk@gmail.com</name>
+					<alias>Александр Редчук</alias>
+					<setting name='last_seen' type='int'>1447187067</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='h.z@jabber.ru/' proto='prpl-jabber'>
+					<name>spf@jabber.ru</name>
+					<alias>Сергей Пинигин</alias>
+					<setting name='last_seen' type='int'>1447177630</setting>
+				</buddy>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>63263332</name>
+					<alias>Сергей Пинигин</alias>
+					<setting name='last_seen' type='int'>1447163169</setting>
+					<setting name='buddy_icon' type='string'>7c062c818dc11185091ad507a32563ae8e0ef2d8.jpg</setting>
+					<setting name='icon_checksum' type='string'>d743f4d8a438151a2350d925df540317</setting>
+					<setting name='tab_index' type='int'>5</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>992641</name>
+					<alias>Vitus©</alias>
+					<setting name='last_seen' type='int'>1447185026</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>130280195</name>
+					<alias>Антон Зорин</alias>
+					<setting name='last_seen' type='int'>1447198485</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>303346500</name>
+					<alias>Михаил Третьяк</alias>
+					<setting name='last_seen' type='int'>1447159931</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>344265620</name>
+					<alias>Дима Гончаров</alias>
+					<setting name='last_seen' type='int'>1447188212</setting>
+					<setting name='tab_index' type='int'>6</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>227807832</name>
+					<alias>Колян Чернов (rat)</alias>
+					<setting name='last_seen' type='int'>1447213732</setting>
+					<setting name='tab_index' type='int'>7</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>1581411</name>
+					<alias>Сергей Борщ</alias>
+					<setting name='last_seen' type='int'>1447175458</setting>
+				</buddy>
+				<buddy account='h.z@jabber.ru/' proto='prpl-jabber'>
+					<name>sborshch@jabber.ru</name>
+					<alias>Сергей Борщ </alias>
+					<setting name='last_seen' type='int'>1447169126</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>163108918</name>
+					<alias>Дмитрий Мазунин</alias>
+					<setting name='last_seen' type='int'>1447191919</setting>
+					<setting name='buddy_icon' type='string'>494167083f2d037410c53ba2f8c198d0c5c84351.jpg</setting>
+					<setting name='icon_checksum' type='string'>5093258fc1b104ae3d6664920f35a002</setting>
+					<setting name='tab_index' type='int'>2</setting>
+				</buddy>
+				<setting name='gtk-mute-sound' type='bool'>1</setting>
+			</contact>
+			<contact>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>130280195@qip.ru</name>
+					<alias>Антон Зорин</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>227807832@qip.ru</name>
+					<alias>Колян Чернов (rat)</alias>
+					<setting name='tab_index' type='int'>10</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>344265620@qip.ru</name>
+					<alias>Дима Гончаров</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>63263332@qip.ru</name>
+					<alias>Сергей Пинигин</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>spf-den@qip.ru</name>
+					<alias>Сергей Пинигин</alias>
+				</buddy>
+			</contact>
+		</group>
+		<group name='Rare/Other'>
+			<setting name='collapsed' type='bool'>1</setting>
+			<contact>
+				<buddy account='h.z@jabber.ru/' proto='prpl-jabber'>
+					<name>krys@jabber.tsk.ru</name>
+					<alias>Krys</alias>
+				</buddy>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>304930863</name>
+					<alias>Krys</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>199704835</name>
+					<alias>Алексей Мусин</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>8444383</name>
+					<alias>ranger</alias>
+					<setting name='last_seen' type='int'>1446985967</setting>
+					<setting name='buddy_icon' type='string'>2f7f69ca9642bbf7d9357b961dab05dc0c5160e5.jpg</setting>
+					<setting name='icon_checksum' type='string'>8793016c134b8236684c27898c5a6955</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>313263348</name>
+					<alias>Дмитрий Иоффе</alias>
+					<setting name='last_seen' type='int'>1447192162</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>339085018</name>
+					<alias>Fox</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>125822498</name>
+					<alias>Алексей Могильников</alias>
+					<setting name='last_seen' type='int'>1447231775</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>one_man_show@mail.ru</name>
+					<alias>one_man_show@mail.ru</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>208710430</name>
+					<alias>Тамаков Владимир</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>284775102</name>
+					<alias>Тарков</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>206736534</name>
+					<alias>Krut Russel</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>664505441</name>
+					<alias>Евгений Нестерович</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>101347299</name>
+					<alias>Sergei Tuchinski</alias>
+					<setting name='last_seen' type='int'>1447185026</setting>
+					<setting name='buddy_icon' type='string'>deaea32172003e9d24017e23ca99ea07eb51e304.gif</setting>
+					<setting name='icon_checksum' type='string'>99b601a3c203eacb615bc77a501a00ca</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>213937192</name>
+					<alias>Stas</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>136875278</name>
+					<alias>Postoroniy_V</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>219891569</name>
+					<alias>Ошуев Андрюха</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>298038222</name>
+					<alias>Н.Белов, Полюс</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>331025992</name>
+					<alias>Майоров Сергей</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>324220668</name>
+					<alias>Сергей Манский</alias>
+					<setting name='last_seen' type='int'>1447155953</setting>
+					<setting name='buddy_icon' type='string'>02d3c16fe518266050c48574cd8c393787f7548c.gif</setting>
+					<setting name='icon_checksum' type='string'>f4fcfae17810bf4e25beffad21b8b0c1</setting>
+					<setting name='tab_index' type='int'>9</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>167510139</name>
+					<alias>Eng-Rus Perevodchik</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>160751162</name>
+					<alias>Константин Манаков</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>178681790</name>
+					<alias>Чепурко Илья (inch)</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470' proto='prpl-icq'>
+					<name>39873539</name>
+					<alias>Алексей Бойко</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>393224848@qip.ru</name>
+					<alias>orthodox</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>bialix@qip.ru</name>
+					<alias>bialix</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>krys@jabber.tsk.ru</name>
+					<alias>Krys</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='310970470@qip.ru/' proto='prpl-jabber'>
+					<name>vl_tam@qip.ru</name>
+					<alias>vl_tam</alias>
+				</buddy>
+			</contact>
+		</group>
+	</blist>
+	<privacy>
+		<account proto='prpl-jabber' name='h.z@jabber.ru/' mode='1'/>
+		<account proto='prpl-icq' name='310970470' mode='1'>
+			<block>236413119</block>
+			<block>227069203</block>
+			<block>232028580</block>
+			<block>334496838</block>
+			<block>346929354</block>
+			<block>339148265</block>
+			<block>233191395</block>
+			<block>336636326</block>
+			<block>316243550</block>
+			<block>344527138</block>
+			<block>59992316</block>
+			<block>254803218</block>
+			<block>285769395</block>
+			<block>315754585</block>
+			<block>235614988</block>
+			<block>333314861</block>
+			<block>224877811</block>
+			<block>245920256</block>
+			<block>223024108</block>
+			<block>219804156</block>
+			<block>231688367</block>
+			<block>224809279</block>
+			<block>49197860</block>
+			<block>234423990</block>
+			<block>150638645</block>
+			<block>274057682</block>
+			<block>271208683</block>
+			<block>330695263</block>
+			<block>234024790</block>
+			<block>231299662</block>
+			<block>330689323</block>
+			<block>230411575</block>
+			<block>349757022</block>
+			<block>227594567</block>
+			<block>322193583</block>
+		</account>
+		<account proto='prpl-jabber' name='310970470@qip.ru/' mode='1'/>
+	</privacy>
+</purple>
