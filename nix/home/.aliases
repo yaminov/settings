@@ -31,7 +31,7 @@ alias la='l -A'
 alias g='git'
 alias gst='g status'
 alias gb='g branch'
-
+alias gitka='gitk --all'
 
 #--------------------------------------------------------------
 #

@@ -23,11 +23,11 @@
 
 [color "status"]
 	header    = "normal"
-        added     = "green bold"
+	added     = "green bold"
 	changed   = "cyan bold"
 	untracked = "yellow dim"
-        deleted   = "red"
-        branch    = "magenta"
+	deleted   = "red"
+	branch    = "magenta"
 
 [credential]
 	helper = store
