@@ -1,0 +1,4 @@
+turn on 256 color terminal support:
+
+cd /usr/share/terminfo/x/
+ln -s /lib/terminfo/x/xterm-256color
