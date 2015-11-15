@@ -1,0 +1,53 @@
+# This file automatically written by the Pidgin GTK+ Theme Control plugin.
+# Any changes to this file will be overwritten by the plugin when told to
+# write the settings again.
+# The FAQ (http://developer.pidgin.im/wiki/FAQ) contains some further examples
+# of possible pidgin gtkrc settings.
+style "purplerc_style"
+{
+	GtkIMHtml::send-name-color = "#7E0F29"
+	GtkIMHtml::receive-name-color = "#4F2CC8"
+}
+widget_class "*" style "purplerc_style"
+style "*pidgin_conv_entry_style"
+{
+	font_name = "DejaVu Sans 10"
+}
+widget "*pidgin_conv_entry" style "*pidgin_conv_entry_style"
+style "*pidgin_conv_imhtml_style"
+{
+	font_name = "DejaVu Sans 10"
+}
+widget "*pidgin_conv_imhtml" style "*pidgin_conv_imhtml_style"
+
+# Create a style called "inverted" where the text and base (the base color behind the widget) are the reverse of typical.
+style "inverted"
+{
+   text[NORMAL] = "#FFFFFF"
+   base[NORMAL] = "#000000"
+}
+
+
+style "main"
+{
+   #text[NORMAL] = "#FFFFFF"
+   base[NORMAL] = "#f0f0f0"
+}
+
+
+# Apply "inverted" to conversation entry box--where you type.
+widget "*pidgin_conv_entry" style "main"
+
+# Apply "inverted" to conversation history pane--where you read the conversation.
+widget "*pidgin_conv_imhtml" style "main"
+
+gtk-can-change-accels = 1
+
+binding "my-bindings"
+{
+    bind "Return" { "insert-at-cursor" ("\n") }
+    bind "<ctrl>Return" { "message_send" () }
+}
+widget "*pidgin_conv_entry" binding "my-bindings"
+
+
