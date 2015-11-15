@@ -115,6 +115,10 @@ fi
 # some other config in .bashrc
 source ~/.aliases
 
+if [[ -f ~/local/bin/mc ]]; then
+    alias mc='~/local/bin/mc'
+fi
+
 export LANGUAGE='en_US.UTF-8'
 export TERM=xterm-256color
 
