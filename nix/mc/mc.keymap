@@ -125,6 +125,9 @@ SortBySize = ctrl-f5
 # SortByMTime =
 # ScrollLeft =
 # ScrollRight =
+PutCurrentPath = ctrl-[
+PutOtherPath = ctrl-]
+
 
 [dialog]
 Ok = enter
