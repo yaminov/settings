@@ -4,7 +4,22 @@
 #
 #   Common
 #
-alias h='history'
+#alias h='history'
+alias mv='nocorrect mv -i'    # no spelling correction on mv, prompt before overwrite
+alias cp='nocorrect cp -iR'   # no spelling correction on cp, prompt before overwrite, recursive
+alias mkdir='nocorrect mkdir' # no spelling correction on mkdir
+alias j=jobs
+alias pu=pushd
+alias po=popd
+alias d='dirs -v'
+
+# List only directories and symbolic
+# links that point to directories
+alias lsd='ls -ld *(-/DN)'
+
+# List only file beginning with "."
+alias lsa='ls -ld .*'
+
 
 alias hsrv='ssh root@5.128.60.74'
 alias wsrv='ssh root@192.168.0.50' 
@@ -23,6 +38,12 @@ alias ..='cd ..'
 alias ..l='cd ..; l'
 alias la='l -A'
 
+#--------------------------------------------------------------
+#
+#   Misc
+#
+
+
 
 #--------------------------------------------------------------
 #
@@ -39,4 +60,11 @@ alias gitka='gitk --all'
 #
 function ff() { find . -type f -iname '*'$*'*' -ls ; }
 
+h() {
+  if [[ -z "$1" ]]; then
+    history
+  else
+    history 0 | grep "$*"
+  fi
+}
 
