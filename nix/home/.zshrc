@@ -198,6 +198,6 @@ zstyle ':completion:*:*:(^rm):*:*files' ignored-patterns '*?.o' '*?.c~' \
 zstyle ':completion:*:functions' ignored-patterns '_*'
 
 
-
+source .zsh-git-prompt/zshrc.sh
 
 
