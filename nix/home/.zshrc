@@ -199,9 +199,10 @@ PROMPT='${cyan}%n@%m${reset}:${blue_bold}%~${reset} $(git_super_status)${yellow_
 #PROMPT2='%i%U> ' 
 RPROMPT=" ${cyan}%T ${magenta}%y%b${reset}" # prompt for right side of screen
 
-#if [ "$EUID" -eq 0 ]; then
-#    PROMPT="${host}${red}[${magenta}%2`${red}]${reset} " # root
-#else
-#    PROMPT="${host}${black}[${magenta}%2`${black}]${reset} " # user
-#fi
+case $TERM in
+    xterm*|rxvt*|screen*)
+        precmd()  { print -Pn "\e]0;%m:%\a" }
+        preexec() { print -Pn "\e]0;$1\a" }
+        ;;
+esac
 
