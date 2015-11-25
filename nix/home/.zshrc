@@ -20,7 +20,7 @@ bindkey '^[[1;5D'   backward-word
 bindkey '^[[1;5C'   forward-word
 
 # Search path for the cd command
-cdpath=(.. ~ ~/slon/ ~/incoming ~/pro/ ~/pro/racurs/)
+cdpath=(.. ~ ~/slon/ ~/incoming ~/pro/ ~/pro/tv/racurs/ ~/cad)
 
 # Use hard limits, except for a smaller stack and no core dumps
 unlimit
@@ -31,7 +31,7 @@ limit -s
 umask 022
 
 # Set up aliases
-source .aliases
+source ~/.aliases
 
 
 # Shell functions
@@ -105,6 +105,8 @@ export MAIL=/var/spool/mail/$USERNAME
 export LESS=-cex3M
 export HELPDIR=/usr/share/zsh/$ZSH_VERSION/help  # directory for run-help function to find docs
 export MANPATH='$MANPATH:/usr/share/man'
+
+export PATH="$PATH:/home/hz/cad/mentor/questasim/bin"
 
 MAILCHECK=300
 HISTSIZE=200
@@ -197,6 +199,7 @@ zstyle ':completion:*:*:(^rm):*:*files' ignored-patterns '*?.o' '*?.c~' \
 # ignore completion functions (until the _ignored completer)
 zstyle ':completion:*:functions' ignored-patterns '_*'
 
+export TERM=xterm-256color
 
 source .zsh-git-prompt/zshrc.sh
 
