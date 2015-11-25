@@ -29,11 +29,11 @@ alias wsrv-git='ssh git@192.168.0.50'
 #
 #   ls
 #
-alias ls='ls -lh --file-type --color --group-directories-first'
-alias l='ls -X'     # sort by extension
-alias lk='ls -S'    # sort by size
-alias lu='ls -ur'   # sort by access time
-alias lc='ls -cr'   # sort by modification time
+alias ll='ls -lh --file-type --color --group-directories-first'
+alias l='ll -X'     # sort by extension
+alias lk='ll -S'    # sort by size
+alias lu='ll -ur'   # sort by access time
+alias lc='ll -cr'   # sort by modification time
 alias ..='cd ..'
 alias ..l='cd ..; l'
 alias la='l -A'
