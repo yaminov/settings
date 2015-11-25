@@ -75,19 +75,6 @@ done
 reset="%{$reset_color%}"
 
 
-# Set prompts
-#PROMPT='%m%# '    # default prompt
-PROMPT="${cyan}%n@%m${reset}:${blue_bold}%~${yellow_bold}>${reset} "
-
-PROMPT2='%i%U> ' 
-RPROMPT=" ${cyan}%T ${magenta}%y%b${reset}" # prompt for right side of screen
-
-#if [ "$EUID" -eq 0 ]; then
-#    PROMPT="${host}${red}[${magenta}%2`${red}]${reset} " # root
-#else
-#    PROMPT="${host}${black}[${magenta}%2`${black}]${reset} " # user
-#fi
-
 man() {
     env LESS_TERMCAP_mb=$'\E[01;31m' \
     LESS_TERMCAP_md=$'\E[01;38;5;74m' \
@@ -199,8 +186,25 @@ zstyle ':completion:*:*:(^rm):*:*files' ignored-patterns '*?.o' '*?.c~' \
 # ignore completion functions (until the _ignored completer)
 zstyle ':completion:*:functions' ignored-patterns '_*'
 
+if [[ -f ~/local/bin/mc ]]; then
+    alias mc='~/local/bin/mc'
+fi
+
+export LANGUAGE='en_US.UTF-8'
 export TERM=xterm-256color
 
-source .zsh-git-prompt/zshrc.sh
+source ~/.zsh-git-prompt/zshrc.sh
 
+# Set prompts
+PROMPT='${cyan}%n@%m${reset}:${blue_bold}%~${reset} $(git_super_status)${yellow_bold}%(!.#.>)${reset} '
+
+#PROMPT2='%i%U> ' 
+RPROMPT=" ${cyan}%T ${magenta}%y%b${reset}" # prompt for right side of screen
+
+case $TERM in
+    xterm*|rxvt*|screen*)
+        precmd()  { print -Pn "\e]0;%m:%\a" }
+        preexec() { print -Pn "\e]0;$1\a" }
+        ;;
+esac
 
