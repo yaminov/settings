@@ -3,5 +3,5 @@
 # call meld with correct parameters.
 
 #[ $# -eq 7 ] && meld "$2" "$5" 2> /dev/null
-[ $# -eq 7 ] && kdiff3 "$2" "$5" 2> /dev/null
-
+#[ $# -eq 7 ] && kdiff3 "$2" "$5" 2> /dev/null
+[ $# -eq 7 ] && diffuse "$2" "$5" 2> /dev/null
