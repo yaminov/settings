@@ -10,11 +10,10 @@ setopt HIST_REDUCE_BLANKS
 setopt HIST_IGNORE_SPACE
 setopt INC_APPEND_HISTORY
 
-bindkey "^[[A" up-line-or-search
-bindkey "^[[B" down-line-or-search
-
-#bindkey "^[[A" history-beginning-search-backward
-#bindkey "^[[B" history-beginning-search-forward
+#bindkey "^[[A" up-line-or-search
+#bindkey "^[[B" down-line-or-search
+bindkey "\eOA" up-line-or-search
+bindkey "\eOB" down-line-or-search
 
 bindkey '^[[1;5D'   backward-word
 bindkey '^[[1;5C'   forward-word
@@ -196,7 +195,7 @@ export TERM=xterm-256color
 source ~/.zsh-git-prompt/zshrc.sh
 
 # Set prompts
-PROMPT='${cyan}%n@%m${reset}:${blue_bold}%~${reset} $(git_super_status)${yellow_bold}%(!.#.>)${reset} '
+PROMPT='${cyan}%n@%m${reset}:${blue_bold}%~${reset}$(git_super_status)${reset}%(!.#.$)${reset} '
 
 #PROMPT2='%i%U> ' 
 RPROMPT=" ${cyan}%T ${magenta}%y%b${reset}" # prompt for right side of screen
