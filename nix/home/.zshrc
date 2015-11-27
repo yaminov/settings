@@ -29,9 +29,9 @@ limit -s
 
 umask 022
 
-# Set up aliases
+# Set up aliases and environment variables
 source ~/.aliases
-
+source ~/.env
 
 # Shell functions
 setenv() { typeset -x "${1}${1:+=}${(@)argv[2,$#]}" }  # csh compatibility
@@ -91,8 +91,6 @@ export MAIL=/var/spool/mail/$USERNAME
 export LESS=-cex3M
 export HELPDIR=/usr/share/zsh/$ZSH_VERSION/help  # directory for run-help function to find docs
 export MANPATH='$MANPATH:/usr/share/man'
-
-export PATH="$PATH:/home/hz/cad/mentor/questasim/bin"
 
 MAILCHECK=300
 HISTSIZE=200
@@ -198,7 +196,7 @@ source ~/.zsh-git-prompt/zshrc.sh
 PROMPT='${cyan}%n@%m${reset}:${blue_bold}%~${reset}$(git_super_status)${reset}%(!.#.$)${reset} '
 
 #PROMPT2='%i%U> ' 
-RPROMPT=" ${cyan}%T ${magenta}%y%b${reset}" # prompt for right side of screen
+#RPROMPT=" ${cyan}%T ${magenta}%y%b${reset}" # prompt for right side of screen
 
 case $TERM in
     xterm*|rxvt*|screen*)
