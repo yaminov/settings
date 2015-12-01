@@ -18,8 +18,11 @@ bindkey "\eOB" down-line-or-search
 bindkey '^[[1;5D'   backward-word
 bindkey '^[[1;5C'   forward-word
 
+bindkey '\e[5~' up-line-or-history              # page-up
+bindkey '\e[6~' down-line-or-history            # page-down
+
 # Search path for the cd command
-cdpath=(.. ~ ~/slon/ ~/incoming ~/pro/ ~/pro/tv/racurs/ ~/cad)
+cdpath=(.. ~ ~/slon/ ~/incoming ~/pro/ ~/pro/tv/racurs/ ~/cad ~/etc/settings/)
 
 # Use hard limits, except for a smaller stack and no core dumps
 unlimit
@@ -55,6 +58,17 @@ alias -g M='|more'
 alias -g H='|head'
 alias -g T='|tail'
 alias -g L='|less -M'
+
+
+#  File assosiations
+
+function background() { "$@" & }
+
+alias -s {avi,mpeg,mpg,mov,m2v}='~/bin/background parole >/dev/null 2>/dev/null'
+alias -s {odt,doc,sxw,rtf,ods}='~/bin/background libreoffice'
+alias -s pdf='~/bin/background qpdfview --unique'
+autoload -U pick-web-browser
+alias -s {html,htm}='~/bin/background vivaldi-beta >/dev/null'
 
 #manpath=($X11HOME/man /usr/man /usr/lang/man /usr/local/man)
 #export MANPATH
@@ -190,7 +204,7 @@ fi
 export LANGUAGE='en_US.UTF-8'
 export TERM=xterm-256color
 
-source ~/.zsh-git-prompt/zshrc.sh
+source ~/etc/zsh/zsh-git-prompt/zshrc.sh
 
 # Set prompts
 PROMPT='${cyan}%n@%m${reset}:${blue_bold}%~${reset}$(git_super_status)${reset}%(!.#.$)${reset} '
@@ -204,4 +218,25 @@ case $TERM in
         preexec() { print -Pn "\e]0;$1\a" }
         ;;
 esac
+
+#  syntax highlighting
+
+typeset -A ZSH_HIGHLIGHT_STYLES
+
+ZSH_HIGHLIGHT_STYLES=(
+        'alias'           'fg=153,bold'
+        'builtin'         'fg=153'
+        'function'        'fg=166'
+        'command'         'fg=153'
+        'precommand'      'fg=153, underline'
+        'hashed-commands' 'fg=153'
+        'path'            'underline'
+        'globbing'        'fg=166'
+)
+
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
+ZSH_HIGHLIGHT_STYLES[cursor]='bg=blue'
+
+source /home/hz/etc/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 

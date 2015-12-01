@@ -68,3 +68,4 @@ h() {
   fi
 }
 
+function e() { (mousepad $@ &) 2>/dev/null }
