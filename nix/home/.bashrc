@@ -139,6 +139,7 @@ export TERM=xterm-256color
 
 # gitprompt configuration
 
+export __GIT_PROMPT_DIR=''
 # Set config variables first
 GIT_PROMPT_ONLY_IN_REPO=1
 
@@ -155,7 +156,7 @@ GIT_PROMPT_ONLY_IN_REPO=1
 GIT_PROMPT_THEME=Custom # use custom .git-prompt-colors.sh
 # GIT_PROMPT_THEME=Solarized # use theme optimized for solarized color scheme
 #GIT_PROMPT_THEME=Custom
-source ~/.bash-git-prompt/gitprompt.sh
+source ~/etc/bash-git-prompt/gitprompt.sh
 
 
 
