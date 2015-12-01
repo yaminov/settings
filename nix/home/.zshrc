@@ -64,7 +64,7 @@ alias -g L='|less -M'
 
 function background() { "$@" & }
 
-alias -s {avi,mpeg,mpg,mov,m2v}='~/bin/background parole >/dev/null 2>/dev/null'
+alias -s {avi,mpeg,mpg,mov,m2v}='~/bin/background parole &>/dev/null'
 alias -s {odt,doc,sxw,rtf,ods}='~/bin/background libreoffice'
 alias -s pdf='~/bin/background qpdfview --unique'
 autoload -U pick-web-browser
