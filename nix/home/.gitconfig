@@ -33,4 +33,4 @@
 	helper = store
 
 [diff]
-	external = git-ext-diff
+	external = ~/bin/git-ext-diff
