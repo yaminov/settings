@@ -4,10 +4,12 @@
 #
 #   Common
 #
+if [[ $SHELL == $(which zsh) ]] ; then NOCORRECT=nocorrect ; fi
+
 #alias h='history'
-alias mv='nocorrect mv -i'    # no spelling correction on mv, prompt before overwrite
-alias cp='nocorrect cp -iR'   # no spelling correction on cp, prompt before overwrite, recursive
-alias mkdir='nocorrect mkdir' # no spelling correction on mkdir
+alias mv="$NOCORRECT mv -i"    # no spelling correction on mv, prompt before overwrite
+alias cp="$NOCORRECT cp -iR"   # no spelling correction on cp, prompt before overwrite, recursive
+alias mkdir="$NOCORRECT mkdir" # no spelling correction on mkdir
 alias j=jobs
 alias pu=pushd
 alias po=popd
@@ -68,4 +70,7 @@ h() {
   fi
 }
 
-function e() { (mousepad $@ &) 2>/dev/null }
+function e() { 
+    (mousepad $@ &) 2>/dev/null 
+}
+
