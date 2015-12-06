@@ -60,7 +60,7 @@ alias gitka='gitk --all'
 #
 #   
 #
-function ff() { find . -type f -iname '*'$*'*' -ls ; }
+ff() { find . -type f -iname '*'$*'*' -ls ; }
 
 h() {
   if [[ -z "$1" ]]; then
@@ -70,7 +70,7 @@ h() {
   fi
 }
 
-function e() { 
+e() { 
     (mousepad $@ &) 2>/dev/null 
 }
 
