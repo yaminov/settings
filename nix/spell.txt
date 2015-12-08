@@ -1,2 +1,0 @@
-sudo add-apt-repository ppa:andrew-crew-kuznetsov/xneur-stable && sudo
-apt-get update && sudo apt-get install hunspell-ru-ie-yo

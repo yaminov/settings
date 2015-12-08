@@ -1,0 +1,24 @@
+
+#**************************************************
+#
+#  Fix greeter clinch with dual monitor switching
+#
+Add 'active-monitor=0' to '/etc/lightdm/lightdm-gtk-greeter.conf'
+
+#**************************************************
+#
+#  Turn on 256 color terminal support (if not working): #
+#
+cd /usr/share/terminfo/x/ 
+ln -s /lib/terminfo/x/xterm-256color
+
+
+#**************************************************
+#
+#  Add rus letter 'yo' support
+#
+sudo add-apt-repository ppa:andrew-crew-kuznetsov/xneur-stable && sudo
+apt-get update && sudo apt-get install hunspell-ru-ie-yo
+
+
+
