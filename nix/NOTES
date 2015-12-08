@@ -15,10 +15,23 @@ ln -s /lib/terminfo/x/xterm-256color
 
 #**************************************************
 #
-#  Add rus letter 'yo' support
+#  Add Russian letter 'yo' support in spell check
 #
 sudo add-apt-repository ppa:andrew-crew-kuznetsov/xneur-stable && sudo
 apt-get update && sudo apt-get install hunspell-ru-ie-yo
 
+
+#**************************************************
+#
+#  Add NumLock in Greeter support
+#
+
+1. copy nix/home/bin/numlock-on.sh to /usr/bin;
+
+2. add to /usr/share/lightdm/lightdm.conf.d/60-lightdm-gtk-greeter.conf line:
+
+numlock-on.sh
+
+(numlockx must be installed)
 
 
