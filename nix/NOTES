@@ -30,7 +30,7 @@ apt-get update && sudo apt-get install hunspell-ru-ie-yo
 
 2. add to /usr/share/lightdm/lightdm.conf.d/60-lightdm-gtk-greeter.conf line:
 
-numlock-on.sh
+greeter-setup-script=/usr/bin/numlock-on.sh
 
 (numlockx must be installed)
 
