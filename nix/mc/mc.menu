@@ -3,11 +3,11 @@ shell_patterns=0
 
 =+ t r | t d
 c       Copmare files/directories
-     meld %f %D/%F > /dev/null 2>&1 &
+     diffuse %f %D/%F > /dev/null 2>&1 &
 	
 =+ t r | t d
 s       Copmare files/directories with same name
-     meld %f %D/%f > /dev/null 2>&1 &
+     diffuse %f %D/%f > /dev/null 2>&1 &
 
 
 + ! t t
