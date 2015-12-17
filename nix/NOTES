@@ -35,3 +35,17 @@ greeter-setup-script=/usr/bin/numlock-on.sh
 (numlockx must be installed)
 
 
+#**************************************************
+#
+#  Tools 
+#
+
+# ARM
+sudo apt-get install gcc-arm-none-eabi
+
+# AVR
+sudo apt-get install gcc-avr
+sudo apt-get install avr-libc
+
+# MSP430
+sudo apt-get install gcc-msp430
