@@ -74,3 +74,7 @@ e() {
     (mousepad $@ &) 2>/dev/null 
 }
 
+
+ai() {
+    sudo apt-get install $@
+}
