@@ -516,7 +516,9 @@ type/WebM
     Include=video
 
 include/video
-	Open=/usr/lib/mc/ext.d/video.sh open ALL_FORMATS
+#	Open=/usr/lib/mc/ext.d/video.sh open ALL_FORMATS
+	Open=(vlc %f > /dev/null 2>&1 &)
+
 	View=%view{ascii} /usr/lib/mc/ext.d/video.sh view ALL_FORMATS
 
 
@@ -749,6 +751,12 @@ regex/\.xz$
 # Parity Archive
 type/^Parity\ Archive\ Volume\ Set
 	Open=/usr/lib/mc/ext.d/archive.sh open par2
+
+
+### Slick ###
+shell/i/.vpw
+    Open=(vs.sh %f &)
+
 
 ### Default ###
 

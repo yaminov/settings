@@ -69,6 +69,7 @@ alias -s {odt,doc,sxw,rtf,ods}='~/bin/background libreoffice'
 alias -s pdf='~/bin/background qpdfview --unique'
 autoload -U pick-web-browser
 alias -s {html,htm}='~/bin/background vivaldi-beta >/dev/null'
+alias -s vpw='~/bin/background vs.sh'
 
 #manpath=($X11HOME/man /usr/man /usr/lang/man /usr/local/man)
 #export MANPATH
