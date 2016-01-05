@@ -304,7 +304,7 @@ regex/\.(so|so\.[0-9\.]*)$
 # Object
 type/^ELF
 	#Open=%var{PAGER:more} %f
-	View=%view{ascii} /usr/lib/mc/ext.d/misc.sh view elf
+	View=%view{ascii} /usr/libexec/mc/ext.d/misc.sh view elf
 
 ### Documentation ###
 
