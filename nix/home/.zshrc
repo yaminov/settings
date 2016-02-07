@@ -238,8 +238,9 @@ ZSH_HIGHLIGHT_STYLES=(
         'globbing'        'fg=166'
 )
 
-ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
-ZSH_HIGHLIGHT_STYLES[cursor]='bg=blue'
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern)
+#SH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
+#ZSH_HIGHLIGHT_STYLES[cursor]='bg=blue'
 
 source /home/hz/etc/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
