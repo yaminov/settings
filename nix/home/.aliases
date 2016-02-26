@@ -71,7 +71,7 @@ h() {
 }
 
 e() { 
-    (mousepad $@ &) 2>/dev/null 
+    (geany $@ &) 2>/dev/null 
 }
 
 
