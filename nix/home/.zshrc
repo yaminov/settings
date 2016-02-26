@@ -147,6 +147,7 @@ zmodload -aF zsh/stat b:zstat
 # bindkey -v               # vi key bindings
 
 bindkey -e                 # emacs key bindings
+bindkey -r '\ex'           # unbind 'alt-x' hotkey
 bindkey ' ' magic-space    # also do history expansion on space
 bindkey '^I' complete-word # complete on tab, leave expansion to _expand
 

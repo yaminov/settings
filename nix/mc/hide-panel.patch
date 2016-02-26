@@ -1,14 +1,14 @@
 diff --git a/src/subshell.c b/src/subshell.c
-index ebd1667..4ac3601 100644
+index ebd1667..8a9da30 100644
 --- a/src/subshell.c
 +++ b/src/subshell.c
-@@ -128,7 +128,8 @@ static int subshell_pty_slave = -1;
+@@ -570,7 +570,8 @@ feed_subshell (int how, int fail_on_error)
+             }
  
- /* The key for switching back to MC from the subshell */
- /* *INDENT-OFF* */
--static const char subshell_switch_key = XCTRL ('o') & 255;
-+//static const char subshell_switch_key = XCTRL ('o') & 255;
-+static const char subshell_switch_key = ALT ('z') & 255;
- /* *INDENT-ON* */
- 
- /* For reading/writing on the subshell's pty */
+             for (i = 0; i < bytes; ++i)
+-                if (pty_buffer[i] == subshell_switch_key)
++                if (i > 0 && pty_buffer[i] == 0x78 && pty_buffer[i-1] == 0x1b )   // alt-x binding
++                //if (pty_buffer[i] == subshell_switch_key)                       // ctrl-o binding
+                 {
+                     write_all (mc_global.tty.subshell_pty, pty_buffer, i);
+                     if (subshell_ready)
