@@ -1,0 +1,36 @@
+
+0. sudo apt-get install autofs
+
+1. Add in /etc/auto.master the following line:
+
+/mnt/smb /etc/auto.smb
+
+2. Modify /etc/auto.smb:
+
+apply patch 'auto.smb.patch' to /etc/auto.smb
+
+This allows full access for anonymous guests
+
+3. For authorized access create:
+
+/etc/creds
+
+Directory and place there credentials. The credendials is a file containing 
+just two lines:
+
+username=name
+password=******
+
+The name of credentials file should be the name of share, for example if 
+the share host is 192.168.0.18 the credentials file name:
+
+/etc/creds/192.168.0.18
+
+Lock credentials from view/edit access:
+
+sudo chmod 600 <cred-file-name>
+
+
+P.S. To restart autofs daemon:
+
+sudo service autofs restart
