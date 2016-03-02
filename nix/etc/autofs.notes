@@ -34,3 +34,5 @@ sudo chmod 600 <cred-file-name>
 P.S. To restart autofs daemon:
 
 sudo service autofs restart
+
+run dns-oesd to add DNS of OESD network to /etc/resolv.conf
