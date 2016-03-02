@@ -110,8 +110,8 @@ display_codepage=UTF-8
 source_codepage=Other_8_bit
 autodetect_codeset=
 spell_language=en
-clipboard_store=
-clipboard_paste=
+clipboard_store=xclip -i -selection clipboard
+clipboard_paste=xclip -o -selection clipboard
 
 [Colors]
 base_color=
