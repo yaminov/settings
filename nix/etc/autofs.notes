@@ -35,4 +35,17 @@ P.S. To restart autofs daemon:
 
 sudo service autofs restart
 
+There is a problem with DNS: local service (dnsmasq) does not always work 
+properly, local dns (dnsmasq) should be turn off. There are two ways:
+
+1. (Recommeded). Turn off dnsmasq in NetworkManager service:
+
+sudo mcedit /etc/NetworkManager/NetworkManager.conf and comment out line 
+with 'dns' setting:
+
+#dns=dnsmasq
+
+2. Add manually external DNS server to /etc/resolf.conf:
+
 run dns-oesd to add DNS of OESD network to /etc/resolv.conf
+
