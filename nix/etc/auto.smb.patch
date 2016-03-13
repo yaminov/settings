@@ -1,0 +1,11 @@
+--- auto.smb.orig	2015-07-08 00:00:00.000000000 +0600
++++ auto.smb	2016-03-02 14:44:30.177233705 +0600
+@@ -62,7 +62,7 @@
+         smbopts="-k"
+         export KRB5CCNAME=$cache
+     else
+-        opts="$opts"',guest'
++        opts="$opts"',guest,uid=$UID,gid=$GID'
+         smbopts="-N"
+     fi
+ fi
