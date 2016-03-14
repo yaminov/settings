@@ -105,7 +105,11 @@ man() {
 export MAIL=/var/spool/mail/$USERNAME
 export LESS=-cex3M
 export HELPDIR=/usr/share/zsh/$ZSH_VERSION/help  # directory for run-help function to find docs
-export MANPATH='$MANPATH:/usr/share/man:/pool/cad/adi/bfin-elf/man:/pool/cad/adi/bfin-elf/share/man'
+
+BFIN_ELF_MAN='/pool/cad/adi/bfin-elf/man:/pool/cad/adi/bfin-elf/share/man'
+GCC_ARM_MAN='/pool/cad/gcc/arm/share/doc/gcc-arm-none-eabi/man'
+
+export MANPATH="$MANPATH:/usr/share/man:$BFIN_ELF_MAN:$GCC_ARM_MAN"
 
 export GREP_COLORS="mt=33"
 export GREP_OPTIONS='--color=auto'
