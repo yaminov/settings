@@ -1,6 +1,7 @@
 [user]
 	name = hz
 	email = dxp@ngs.ru
+	useConfigOnly = true
 
 [core]
 	editor = fte
