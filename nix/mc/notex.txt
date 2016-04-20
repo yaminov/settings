@@ -1,0 +1,13 @@
+Turn on zip on <enter> support
+
+
+/usr/local/libexec/mc/extfs/uzip:
+
+change line 
+
+my $op_has_zipinfo = 0; 
+
+to 
+
+my $op_has_zipinfo = 1;
+
