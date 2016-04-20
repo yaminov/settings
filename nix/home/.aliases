@@ -74,6 +74,10 @@ e() {
     (geany $@ &) 2>/dev/null 
 }
 
+se() { 
+    (sudo geany $@ &) 2>/dev/null 
+}
+
 
 ai() {
     sudo apt-get install $@
