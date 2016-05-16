@@ -22,7 +22,7 @@ bindkey '\e[5~' up-line-or-history              # page-up
 bindkey '\e[6~' down-line-or-history            # page-down
 
 # Search path for the cd command
-cdpath=(.. ~ ~/slon/ ~/incoming ~/pro/ ~/pro/racurs/ ~/cad ~/etc/settings/)
+cdpath=(.. ~ ~/incoming ~/pro ~/cad ~/.local/settings)
 
 # Use hard limits, except for a smaller stack and no core dumps
 unlimit
@@ -71,12 +71,8 @@ autoload -U pick-web-browser
 alias -s {html,htm}='~/bin/background vivaldi-beta >/dev/null'
 alias -s vpw='~/bin/background vs.sh'
 
-#manpath=($X11HOME/man /usr/man /usr/lang/man /usr/local/man)
-#export MANPATH
-
 # Hosts to use for completion (see later zstyle)
 hosts=(`hostname` ftp.math.gatech.edu prep.ai.mit.edu wuarchive.wustl.edu)
-
 
 # Set colors
 autoload -U colors && colors
@@ -213,7 +209,7 @@ fi
 export LANGUAGE='en_US.UTF-8'
 export TERM=xterm-256color
 
-source ~/etc/zsh/zsh-git-prompt/zshrc.sh
+source ~/.zsh/zsh-git-prompt/zshrc.sh
 
 # Set prompts
 PROMPT='${cyan}%n@%m${reset}:${blue_bold}%~${reset}$(git_super_status)${reset}%(!.#.$)${reset} '
@@ -247,6 +243,6 @@ ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern)
 #SH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
 #ZSH_HIGHLIGHT_STYLES[cursor]='bg=blue'
 
-source /home/hz/etc/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 

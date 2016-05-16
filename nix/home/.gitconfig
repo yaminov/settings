@@ -1,6 +1,6 @@
 [user]
-	name = hz
-	email = dxp@ngs.ru
+	name = kamil
+	email = k.r.yaminov@gmail.com
 	useConfigOnly = true
 
 [core]
@@ -34,4 +34,4 @@
 	helper = store
 
 [diff]
-	external = ~/bin/git-ext-diff
+	external = ~/.local/script/git-ext-diff

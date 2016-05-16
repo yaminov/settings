@@ -23,7 +23,6 @@ alias lsd='ls -ld *(-/DN)'
 alias lsa='ls -ld .*'
 
 
-alias hsrv='ssh root@5.128.60.74'
 alias wsrv='ssh root@192.168.0.50' 
 alias wsrv-git='ssh git@192.168.0.50'
 
