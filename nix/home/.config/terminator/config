@@ -1,7 +1,7 @@
 [global_config]
 [keybindings]
-  close_term = F3
-  close_window = <Alt>q
+  close_term = <Alt>q
+  close_window = <Alt>w
   go_down = <Primary><Shift>Down
   go_left = <Primary><Shift>Left
   go_right = <Primary><Shift>Right
