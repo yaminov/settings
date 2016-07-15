@@ -64,12 +64,12 @@ alias -g L='|less -M'
 
 function background() { "$@" & }
 
-alias -s {avi,mpeg,mpg,mov,m2v}='~/bin/background parole &>/dev/null'
-alias -s {odt,doc,sxw,rtf,ods}='~/bin/background libreoffice'
-alias -s pdf='~/bin/background qpdfview --unique'
+alias -s {avi,mpeg,mpg,mov,m2v}='background parole &>/dev/null'
+alias -s {odt,doc,sxw,rtf,ods}='background libreoffice'
+alias -s pdf='background qpdfview --unique'
 autoload -U pick-web-browser
-alias -s {html,htm}='~/bin/background vivaldi-beta >/dev/null'
-alias -s vpw='~/bin/background vs.sh'
+alias -s {html,htm}='background vivaldi-beta >/dev/null'
+alias -s vpw='background vs.sh'
 
 # Hosts to use for completion (see later zstyle)
 hosts=(`hostname` ftp.math.gatech.edu prep.ai.mit.edu wuarchive.wustl.edu)
