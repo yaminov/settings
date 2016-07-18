@@ -13,5 +13,5 @@ UUID=79815523-2d36-4def-bc28-d2b4e87899ea /               ext4    errors=remount
 # swap was on /dev/sda5 during installation
 UUID=ec5abe11-472e-461d-aa4e-44996f540481 none            swap    sw              0       0
 
-//192.168.0.253/Backup/H/    /mnt/arc-backup        cifs   auto,uid=1000,gid=1000,rw,user=,passwd= 0 0 
+//192.168.0.253/Backup/Kamil/    /mnt/arc-backup        cifs   auto,uid=1000,gid=1000,rw,user=,passwd= 0 0 
 
