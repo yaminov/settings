@@ -1,0 +1,11 @@
+1) install smbclient and cifs-utils
+
+sudo apt-get install smbclient cifs-utils
+
+2) edit /etc/fstab according to example from fstab.example
+
+3) check that backup.sh has executable permission
+
+4) run crontab -e and add into them next job - run bacjup script every day at 0:0am
+
+0 0 * * *       /home/kamil/.local/settings/nix/backup/backup.sh
