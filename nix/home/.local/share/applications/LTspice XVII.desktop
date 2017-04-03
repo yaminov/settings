@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=LTspice XVII
+Exec=env WINEPREFIX="/home/kamil/.wine" wine C:\\\\Program\\ Files\\\\LTC\\\\LTspiceXVII\\\\XVIIx64.exe 
+Type=Application
+StartupNotify=true
+Comment=Linear Technology Corporation's LTspice XVII
+Path=/home/kamil/.wine/dosdevices/c:/Program Files/LTC/LTspiceXVII
+Icon=DB38_XVIIx64.0
+Categories=Development

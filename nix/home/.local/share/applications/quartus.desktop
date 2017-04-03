@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=QuartusII 13.1
+Icon=/opt/cad/altera/13.1/quartus/adm/quartusii.png
+Exec=/opt/cad/altera/13.1/quartus/bin/quartus --64bit
+Path=/home/kamil
+NoDisplay=false
+Categories=Development;
+StartupNotify=false
+Terminal=false
