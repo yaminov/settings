@@ -2,8 +2,8 @@
 Version=1.0
 Type=Application
 Name=Kicad
-Icon=/opt/cad/kicad/kicad-gost/share/icons/hicolor/128x128/apps/kicad.png
-Exec=/opt/cad/kicad/kicad-gost/bin/kicad
+Icon=/opt/cad/kicad/kicad/share/icons/hicolor/128x128/apps/kicad.png
+Exec=/opt/cad/kicad/kicad/bin/kicad
 Path=/home/kamil
 NoDisplay=false
 Categories=Development;
