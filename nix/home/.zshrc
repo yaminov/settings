@@ -22,7 +22,7 @@ bindkey '\e[5~' up-line-or-history              # page-up
 bindkey '\e[6~' down-line-or-history            # page-down
 
 # Search path for the cd command
-cdpath=(.. ~ ~/incoming ~/pro ~/cad ~/.local/settings)
+cdpath=(.. /opt /opt/incoming /opt/pro /opt/cad ~/.local/settings)
 
 # Use hard limits, except for a smaller stack and no core dumps
 unlimit
