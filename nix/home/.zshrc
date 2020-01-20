@@ -66,9 +66,9 @@ function background() { "$@" & }
 
 alias -s {avi,mpeg,mpg,mov,m2v}='background parole &>/dev/null'
 alias -s {odt,doc,sxw,rtf,ods}='background libreoffice'
-alias -s pdf='background qpdfview --unique'
+alias -s pdf='background okular'
 autoload -U pick-web-browser
-alias -s {html,htm}='background vivaldi-beta >/dev/null'
+alias -s {html,htm}='background firefox >/dev/null'
 alias -s vpw='background vs.sh'
 
 # Hosts to use for completion (see later zstyle)
