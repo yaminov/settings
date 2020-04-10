@@ -248,3 +248,4 @@ ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern)
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
+source /opt/cad/xilinx/Vivado/2018.2/settings64.sh
