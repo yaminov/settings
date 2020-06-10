@@ -1,11 +1,40 @@
-1) install smbclient and cifs-utils
+0) make credentials file /etc/creds/backup.smbclient with 400 permission with next content:
 
-sudo apt-get install smbclient cifs-utils
+username=<username>
+password=<password>
+domain=esafeline.com
 
-2) edit /etc/fstab according to example from fstab.example
+1) install smbclient, cifs-utils, autofs and rclone
 
-3) check that backup.sh has executable permission
+sudo apt-get install smbclient cifs-utils autofs rclone
 
-4) run crontab -e and add into them next job - run bacjup script every day at 0:0am
+2) setup smb share mount
+
+make /mnt/esafeline dir and change its owner and group to user
+
+in /etc/auto.master add:
+
+/mnt/esafeline /etc/autofs/auto.esafeline --timeout 60 --browse
+
+make backup directory on samba server and bind them to local filesystem
+for this create and edit /etc/autofs/auto.esafeline:
+
+backup -fstype=cifs,credentials=/etc/creds/esafeline,uid=1000,gid=1000 ://esafeline.com/users/kyaminov/backup
+
+restart service autofs
+
+3) setup access to google drive
+
+make backup directory at google drive and change its owner and group to user
+
+exec "rclone config" and setup authorization
+
+in ~/.profile add next lines to mount google drive:
+
+rclone mount gdrive: /mnt/gdrive &
+
+4) check that backup.sh has executable permission
+
+5) run crontab -e and add into them next job - run backup script every day at 0:0am
 
 0 0 * * *       /home/kamil/.local/settings/nix/backup/backup.sh
