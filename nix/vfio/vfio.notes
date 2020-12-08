@@ -1,0 +1,47 @@
+1. Modules configuration
+
+/etc/modules-load.d/modules.conf:
+
+vfio
+vfio_iommu_type1
+vfio_pci
+vfio_virqfd
+
+/etc/modprobe.d/vfio.conf:
+
+options vfio-pci ids=8086:3e98
+blacklist i915
+install i915 /bin/true
+
+/etc/default/grub
+
+GRUB_CMDLINE_LINUX_DEFAULT="intel_iommu=on vfio_pci.ids=8086:3e98"
+
+2. Update initramfs and grub:
+
+sudo update-initramfs -u
+sudo update-grub
+
+3. Reboot
+
+4. Check driver
+
+lspci -nnk -s 00:02.0
+00:02.0 Display controller [0380]: Intel Corporation Device [8086:3e98]
+	Subsystem: Micro-Star International Co., Ltd. [MSI] Device [1462:7b48]
+	Kernel driver in use: vfio-pci
+	Kernel modules: i915
+
+5. Install kvm
+
+sudo apt install qemu-kvm
+sudo adduser kamil kvm
+
+6. Build and install qemu
+
+./configure --prefix=/usr --enable-kvm --disable-xen --enable-libusb --enable-debug-info --enable-debug --enable-sdl --enable-vhost-net --enable-spice --disable-debug-tcg --enable-opengl --enable-gtk --target-list=x86_64-softmmu
+make && make install
+
+7. Install bios (OVMF)
+
+sudo apt install ovmf
